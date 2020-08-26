@@ -1,0 +1,6 @@
+com\prueba\entidades\Peliculas_.class
+com\prueba\session\AbstractFacade.class
+com\prueba\services\Pelicula.class
+com\prueba\services\AplicationConfig.class
+com\prueba\entidades\Peliculas.class
+com\prueba\session\PeliculasFacade.class

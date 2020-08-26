@@ -1,0 +1,773 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+
+/*Preloader*/
+
+.hidden {
+    overflow: hidden;
+}
+
+.preloader {
+    background: #fff;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+}
+
+    .sk-cube-grid .sk-cube {
+        width: 33%;
+        height: 33%;
+        background-color: #57cbcc;
+        float: left;
+        -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+        animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    }
+
+    .sk-cube-grid .sk-cube1 {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
+
+    .sk-cube-grid .sk-cube2 {
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .sk-cube-grid .sk-cube3 {
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+    }
+
+    .sk-cube-grid .sk-cube4 {
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+    }
+
+    .sk-cube-grid .sk-cube5 {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
+
+    .sk-cube-grid .sk-cube6 {
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .sk-cube-grid .sk-cube7 {
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+
+    .sk-cube-grid .sk-cube8 {
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+    }
+
+    .sk-cube-grid .sk-cube9 {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    35% {
+        -webkit-transform: scale3d(0, 0, 1);
+        transform: scale3d(0, 0, 1);
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    35% {
+        -webkit-transform: scale3d(0, 0, 1);
+        transform: scale3d(0, 0, 1);
+    }
+}
+/*End preloader*/
+/*Header*/
+.header-top {
+    font-size: 14.5px;
+    padding-top: 6px;
+    background-color: black;
+}
+
+    .header-top a {
+        color: white;
+    }
+
+    .header-top ul li {
+        display: inline-block;
+        margin-right: 26px;
+    }
+
+    .header-top .header-top-left i {
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header-top .header-top-left a:hover {
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        color: #fab700;
+    }
+
+    .header-top .header-top-right {
+        text-align: right;
+    }
+
+        .header-top .header-top-right a {
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            margin-right: 20px;
+        }
+
+            .header-top .header-top-right a:hover {
+                -webkit-transition: all 0.3s ease 0s;
+                -moz-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                color: #fab700;
+            }
+
+
+@media (max-width: 767px) {
+    .header-top {
+        display: none;
+    }
+}
+
+.welcome {
+    color: #1da1f2;
+}
+
+.welcome2 {
+    color: white;
+}
+
+/*Second nav*/
+.main-menu {
+    background-color: rgba(0,0,0,1);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.mov-menu {
+    background-color: rgba(0,0,0,0.83);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.logo a img {
+    height: 55px;
+    width: 180px;
+    margin-left: 80px;
+}
+
+.text-bar {
+    color: white;
+}
+
+    .text-bar:hover {
+        color: #fab700;
+    }
+
+/*End second nav*/
+/*End header*/
+/*Container*/
+.container.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+/*End container*/
+/*Body*/
+
+.login {
+    background-image: url(https://cdn.hipwallpaper.com/i/40/27/r4StQv.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #777777;
+    position: relative;
+}
+
+/*End Body*/
+/*Start Home*/
+.pub-bg {
+    background-color: #1F2933;
+}
+
+/*Service*/
+.single-service {
+    text-align: center;
+}
+
+    .single-service p {
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+
+.flex-column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icon-service {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #072C4A;
+}
+/*End Service*/
+/*Start Video*/
+.video-area {
+    background: url(http://yesofcorsa.com/wp-content/uploads/2017/05/Cinema-Wallpaper-High-Definition-1024x683.jpg) center;
+    background-size: cover;
+}
+
+.video-area-bg {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.feedback-left {
+    background: url(https://www.wag1mag.com/wp-content/uploads/cinefuturo4.jpg) center;
+    background-size: cover;
+}
+
+.feedback-left-bg {
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    padding: 130px 0;
+}
+
+.color-star {
+    color: yellow;
+}
+/*End Video*/
+/*End Home*/
+/*Cartelera*/
+contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+
+
+
+.buy {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    height: 295px;
+    width: 215px;
+    transition: background-color 0.5s;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+    .buy:hover {
+        background-color: rgba(0,0,0,0.6);
+        opacity: 1;
+    }
+
+.buyC {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    height: 270px;
+    width: 320px;
+    transition: background-color 0.5s;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+    .buyC:hover {
+        background-color: rgba(0,0,0,0.6);
+        opacity: 1;
+    }
+
+.buyPM {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    height: 270px;
+    width: 370px;
+    transition: background-color 0.5s;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+    .buyPM:hover {
+        background-color: rgba(0,0,0,0.6);
+        opacity: 1;
+    }
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+
+    .centrado:hover {
+        opacity: 1;
+    }
+
+
+/*End Cartelera*/
+
+/*Crear Usuario*/
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*End Crear Usuario*/
+/*Login*/
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+}
+
+.wrap-login100 {
+    width: 440px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.login100-form {
+    width: 100%;
+}
+
+.label-input {
+    color: white;
+    font-size: 17.5px;
+}
+
+.input-div {
+    display: flex;
+}
+
+.input-icon {
+    background-color: #FFC312;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 6px;
+    border-radius: 3.5px;
+    border: 0 !important;
+    width: 40px;
+}
+
+.input-text {
+    width: 320px;
+}
+
+.login100-form-title {
+    display: block;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+
+.input100 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+.login100-form-btn {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #fab700;
+    border-radius: 6px;
+    border: 2px solid #fab700;
+}
+
+    .login100-form-btn:hover {
+        color: #4A4F56;
+        background-color: #FBD366;
+        border: 2px solid #FBD366;
+    }
+
+.line-form {
+    display: inline-block;
+    line-height: 1.5;
+    height: 100%;
+}
+/*Register text*/
+
+.txt0 {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fab700;
+}
+
+    .txt0:hover {
+        color: #1da1f2;
+    }
+
+.txt1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    display: inline-block;
+}
+
+.txt2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fab700;
+}
+
+    .txt2:hover {
+        color: #1da1f2;
+    }
+
+/*End register text*/
+
+/*Colors social network*/
+.bg1 {
+    background-color: #3b5998
+}
+
+.bg2 {
+    background-color: #1da1f2
+}
+
+.bg3 {
+    background-color: #ea4335
+}
+/*End color social network*/
+/*Social icons*/
+.login100-social-item {
+    font-size: 25px;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+    .login100-social-item:hover {
+        color: #fff;
+        background-color: #333333;
+    }
+/*endo social icons*/
+/*End login*/
+/*About*/
+.banner-area {
+    background: url(https://3.bp.blogspot.com/-4rf9zLu_uHk/Wu3o20pCsMI/AAAAAAAAVjk/6Qmk9KDQ8eUBrFQlcb6a98L7EOu1R-kbwCLcBGAs/s1600/FILMES-NETFLIX-DESTAQUES.png) center;
+    background-size: cover;
+}
+
+.banner-area-bg {
+    background-color: rgba(0,0,0,0.35);
+    position: relative;
+}
+
+.about-content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+    .about-content h1 {
+        font-size: 50px;
+        font-weight: 650;
+    }
+
+    .about-content a {
+        color: white;
+        font-weight: 350;
+        font-size: 20px;
+    }
+
+        .about-content a:hover {
+            color: #1da1f2;
+        }
+
+
+@media (max-width: 767.98px) {
+    .banner-area .fullscreen {
+        height: 500px !important;
+    }
+}
+
+.link-nav {
+    margin-top: 10px;
+}
+
+/*section mision-vision*/
+.section-gap {
+    padding: 8px 0;
+}
+
+.home-about-area .home-about-left h1 {
+    margin-bottom: 30px;
+}
+
+.home-about-area .home-about-left h6 {
+    color: #fab700;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.home-about-area .home-about-left .sub {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.text-about {
+    text-align: justify;
+    font-size: medium;
+}
+/*end section mision-vision*/
+
+/*End About*/
+/*Footer*/
+.footer-area {
+    padding-top: 15px;
+    background-color: #04091e;
+}
+
+    .footer-area h6 {
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+.footer-text a i {
+    color: #fab700;
+}
+
+.text-footer {
+    color: #7B807A;
+}
+
+.footer-text {
+    padding-top: 20px;
+}
+
+    .footer-text a {
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        color: #fab700;
+    }
+
+        .footer-text a:hover {
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            color: #1da1f2;
+        }
+
+.footer-social a {
+    padding-right: 25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+    .footer-social a:hover {
+        color: #fab700;
+    }
+
+/*End Footer*/
+/*section BuyDetails*/
+.about-2 .content-block {
+    padding: 40px;
+}
+
+    .about-2 .content-block .media {
+        margin-top: 25px;
+    }
+
+        .about-2 .content-block .media .pull-left {
+            padding-right: 15px;
+        }
+
+        .about-2 .content-block .media i {
+            font-size: 30px;
+            color: #57cbcc;
+        }
+
+        .about-2 .content-block .media h4 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .checked{
+            color:orange;
+        }
+
+
+svg {
+    width: 130px;
+    height: 40px;
+}
+/*-------------------------------------------------------------------*/
+.svg .button {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    margin: 20px;
+    overflow: hidden;
+}
+    .svg .button rect {
+        position: absolute;
+        top: 0;
+        left: 0;
+        stroke-width: 4px;
+        stroke-dashoffset: 400px;
+        stroke: dodgerblue;
+    }
+
+    .svg .button span {
+        color: dodgerblue;
+        width: 130px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        line-height: 40px;
+        transition: all .2s linear;
+    }
+
+        .svg .button span:hover {
+            color: #fff;
+            background: dodgerblue;
+            transition: all 1s cubic-bezier(1.25s 0, 1.15, 1, 1);
+            transition-delay: .5s;
+        }
+    .svg .button:hover rect {
+        animation: draw2 .75s linear forwards;
+    }
+
+
+    .svg .button:hover span {
+        animation: draw3 .75s linear forwards;
+    }
+
+
+@keyframes draw2 {
+    0% {
+        stroke-dashoffset: 350;
+        stroke-dasharray: 350;
+    }
+
+    50% {
+        stroke-dashoffset: 600;
+        stroke-dasharray: 400;
+        stroke-width: 1px;
+    }
+
+    100% {
+        stroke-dashoffset: 900;
+        stroke-dasharray: 400;
+        stroke-width: 1px;
+    }
+}
+
+
+
+
+/*End BuyDetails*/
